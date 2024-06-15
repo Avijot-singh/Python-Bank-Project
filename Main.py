@@ -1,4 +1,4 @@
-from Deposit import Deposit
+
 class Main:
     def main_In():
         
@@ -9,13 +9,12 @@ class Main:
             print("1.New")
             print("2.Existing")
             try:
-                option = (input("Option: "))
+                option = int(input("Option: "))
                 if(option == 1):
                     print([[Signp.py ]])
                     break
             except ValueError:
                 print("Please Enter a Number Value")
-            
 
     while(True):
             print("Please Select from below options: ")
