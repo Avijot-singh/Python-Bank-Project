@@ -1,4 +1,3 @@
-from LoginPage import Login
 from Deposit import Deposit
 class Main:
     def main_In():
